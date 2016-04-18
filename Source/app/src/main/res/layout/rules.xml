@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#e6e1df">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/ruletext"
+            android:text="bleh bleh"
+            android:layout_margin="5sp"
+            android:padding="3sp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonr1"
+            android:text="Start Playing"
+            android:textSize="15sp"
+            android:elevation="5sp"
+            android:layout_gravity="center"
+            android:layout_margin="5sp"/>
+
+    </LinearLayout>
+</ScrollView>
